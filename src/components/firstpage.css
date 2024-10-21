@@ -1,0 +1,58 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes scale1 {
+    from {
+      transform: scale(0);
+    }
+    to {
+      transform: scale(1);
+    }
+  }
+
+.rutonnam-image {
+  position: relative;
+  width: 400px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  z-index: 1;
+  top: -100px;
+  animation: scale1 2s;
+}
+
+.yes-button {
+  position: absolute;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  top: 45%;
+  right: 50%;
+  z-index: 2; /* Ensure the button is on top of other elements */
+  animation: scale1 2s;
+}
+
+.yes-image {
+  width: auto; /* Adjust the width as needed */
+  height: 150px; /* Maintain aspect ratio */
+}
+
+.no-button {
+  position: absolute;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  top: 45%;
+  left: 50%;
+  z-index: 2; /* Ensure the button is on top of other elements */
+  animation: scale1 2s;
+}
+
+.no-image {
+  width: auto; /* Adjust the width as needed */
+  height: 150px; /* Maintain aspect ratio */
+}

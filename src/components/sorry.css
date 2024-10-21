@@ -1,0 +1,66 @@
+@keyframes scale {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+.sorry-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  text-align: center;
+  position: relative; /* Ensure the container is relative for absolute positioning */
+}
+.sorry-image {
+  position: absolute;
+  width: 400px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  z-index: 1;
+  top: 10%;
+  animation: fadeIn 5s;
+}
+
+.apolgize-image {
+  position: absolute;
+  width: 300px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  z-index: 1;
+  top: 35%;
+  animation: fadeIn 10s;
+}
+
+.accept-button {
+  position: absolute;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  top: 50%;
+  right: 50%;
+  z-index: 2; /* Ensure the button is on top of other elements */
+  animation: fadeIn 10s;
+}
+
+.accept-image {
+  width: auto; /* Adjust the width as needed */
+  height: 150px; /* Maintain aspect ratio */
+}
+
+.deny-button {
+  position: absolute;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  top: 50%;
+  left: 50%;
+  z-index: 2; /* Ensure the button is on top of other elements */
+  animation: fadeIn 10s;
+}
+
+.deny-image {
+  width: auto; /* Adjust the width as needed */
+  height: 150px; /* Maintain aspect ratio */
+}
