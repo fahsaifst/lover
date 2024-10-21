@@ -75,15 +75,13 @@
   animation: fadeIn 5s;
 }
 
-
-
 .next-button {
   position: absolute;
   font-size: 1.2em;
   font-weight: bold;
   color: #ffffff;
   z-index: 4;
-  top: 75%;
+  top: 80%;
   font-family: 'Cormorant', sans-serif; 
   background-color: transparent;
   border: none;

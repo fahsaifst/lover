@@ -29,7 +29,7 @@
   width: 300px; /* Adjust the width as needed */
   height: auto; /* Maintain aspect ratio */
   z-index: 1;
-  top: 35%;
+  top: 40%;
   animation: fadeIn 10s;
 }
 
@@ -38,7 +38,7 @@
   background-color: transparent;
   border: none;
   cursor: pointer;
-  top: 50%;
+  top: 60%;
   right: 50%;
   z-index: 2; /* Ensure the button is on top of other elements */
   animation: fadeIn 10s;
@@ -54,7 +54,7 @@
   background-color: transparent;
   border: none;
   cursor: pointer;
-  top: 50%;
+  top: 60%;
   left: 50%;
   z-index: 2; /* Ensure the button is on top of other elements */
   animation: fadeIn 10s;
