@@ -81,13 +81,12 @@
   font-weight: bold;
   color: #ffffff;
   z-index: 4;
-  top: 80%;
+  top: 90%;
   font-family: 'Cormorant', sans-serif; 
   background-color: transparent;
   border: none;
-  padding: 10px 20px;
   border-radius: 10px;
   cursor: pointer;
-  animation: fadeIn 30s;
+  animation: fadeIn 15s;
   
 }
